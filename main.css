@@ -2,10 +2,59 @@ body {
   background-color: #0d1117;
   color: #c9d1d9;
   font-family: "Inter", sans-serif;
+  font-size: 16px;
   margin: 16px;
 }
 
-div.counter{
+div.counter {
   color: #f0f6fc;
   font-weight: bold;
+}
+
+div.text {
+  margin-top: 8px;
+}
+
+div.text a {
+  color: #58a6ff;
+  text-decoration: underline;
+}
+
+img.photo {
+  border-radius: 16px;
+  display: block;
+  margin-top: 64px;
+  max-width: 512px;
+  width: 100%;
+}
+
+div.emojis {
+  font-size: 64px;
+  margin-top: 64px;
+}
+
+div.blanks {
+  font-size: 0px;
+  margin-top: 8px;
+}
+
+span.blank {
+  border-radius: 4px;
+  display: inline-block;
+  padding: 4px;
+}
+
+span.blank:not(:last-child) {
+  margin-right: 4px;
+}
+
+span.blank.highlight {
+  background-color: #58a6ff;
+}
+
+span.blank-inner {
+  border-bottom: 1px solid #f0f6fc;
+  display: inline-block;
+  height: 16px;
+  width: 16px;
 }
